@@ -311,3 +311,37 @@ body {
     .work {
         width: 47%;
     }
+  }
+
+@media screen and (max-width:980px) and (min-width:769px){
+    #logo {
+        margin-left: 50px;
+    }
+
+    .masthead {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    nav {
+        margin-right: 50px;
+    }
+
+    .auth-image {
+        width: 100%;
+    }
+
+    .main-section {
+        left: 50px;
+        margin-left: 50px;
+        max-width: 55%;
+    }
+
+    .sidebar {
+        margin-right: 50px;
+    }
+
+    .work {
+        width: 100%;
+    }
+}
